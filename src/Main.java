@@ -110,6 +110,7 @@ public class Main {
             System.out.println("Automate créé avec succès ✅");
 
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("Une erreur s'est produite lors de la construction de cet automate ❌");
         }
     }
@@ -173,6 +174,7 @@ public class Main {
             }
 
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("Une erreur s'est produite ❌");
         }
     }
@@ -231,6 +233,7 @@ public class Main {
             System.out.println("Automate créé avec succès ✅");
 
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("Une erreur s'est produite ❌");
         }
     }
@@ -262,6 +265,7 @@ public class Main {
 
             System.out.println("Automate créé avec succès ✅");
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("Une erreur s'est produite ❌");
         }
     }
@@ -317,6 +321,7 @@ public class Main {
                 System.out.println("La reconnaissance a échoué ❌");
             }
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("Une erreur s'est produite ❌");
         }
     }
@@ -349,6 +354,7 @@ public class Main {
 
 
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("Une erreur s'est produite ❌");
         }
     }
